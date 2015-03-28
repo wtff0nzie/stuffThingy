@@ -1,0 +1,22 @@
+{
+  "name": "StuffThingy",
+  "version": "0.0.1",
+  "description": "Easily enable fast Ajax navigation on any website (yeOldie pushState + XHR)",
+  "keywords": [
+    "spa",
+    "pushstate",
+    "ajax",
+    "navigation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wtff0nzie/stuffThingy"
+  },
+  "homepage": "https://github.com/wtff0nzie/stuffThingy",
+  "bugs": {
+    "url": "https://github.com/wtff0nzie/stuffThingy/issues"
+  },
+  "author": "Dez Iddon",
+  "license": "MIT",
+  "main": "stuffThingy.js"
+}

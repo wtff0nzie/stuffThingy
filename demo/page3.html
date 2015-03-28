@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Page 3 title</title>
+</head>
+<body itemscope itemtype="http://schema.org/WebSite">
+    <header role="presentation">
+        <h1>StuffThingy</h1>
+    </header>
+    <nav role="navigation">
+        <a href="index.html">Home</a>
+        <a href="page1.html">Page 1</a>
+        <a href="page2.html">Page 2</a>
+        <a class="active" href="page3.html">Page 3</a>
+    </nav>
+    <main role="main">
+        <p>Hey, I'm page three! But I have a FORM</p>
+        <form action="page1.html" method="GET">
+            <input type="text" name="test" value="testing" autofocus>
+            <button type="submit">Button Submit</button>
+            <input type="submit" value="Input[type='submit'] Submit">
+        </form>
+    </main>
+    <footer role="contentinfo">
+        <p>Just a footer. <a rel="self" href="https://github.com/wtff0nzie/stuffThingy">Github</a></p>
+    </footer>
+    <script src="../stuffThingy.js" async></script>
+</body>
+</html>

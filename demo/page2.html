@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Page 2 content</title>
+</head>
+<body itemscope itemtype="http://schema.org/WebSite">
+    <header role="presentation">
+        <h1>StuffThingy</h1>
+    </header>
+    <nav role="navigation">
+        <a href="index.html">Home</a>
+        <a href="page1.html">Page 1</a>
+        <a class="active" href="page2.html">Page 2</a>
+        <a href="page3.html">Page 3</a>
+    </nav>
+    <main role="main">
+        <p>Aloha! I'm page 2! In addition to some additional JS, I have an inline click handler <a href="#top" onclick="document.location='http://amiga.org'">Link</a></p>
+    </main>
+    <footer role="contentinfo">
+        <p>Just a footer. <a rel="self" href="https://github.com/wtff0nzie/stuffThingy">Github</a></p>
+    </footer>
+    <script>
+        var globalVar = function () {
+            alert('AH, AH, AH, AH, STAYING ALIVEEEEEE!');
+        };
+    </script>
+    <script src="../stuffThingy.js" async></script>
+</body>
+</html>
